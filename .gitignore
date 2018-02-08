@@ -3,3 +3,4 @@ __pycache__
 .vscode
 *.zip
 training_data
+*.DS_Store
