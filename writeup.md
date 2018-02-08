@@ -51,10 +51,6 @@ Here is an example of the same vehicle image in 6 different color spaces.
 
 ![alt text][image9]
 
-Here is an example using the `YCrCb` color space and HOG parameters of `orientations=8`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
-
-![alt text][image2]
-
 #### 2. Explain how you settled on your final choice of HOG parameters.
 
 I looped through multiple combinations of parameters and trained my classifier for each set of parameters. The classifier with the highest accuracy was the one used for the remainder of the project.
